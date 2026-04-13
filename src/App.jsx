@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import './App.css'
+import Hero from './components/Hero'
+import NavBar from './components/NavBar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    <h1 className='bg-red-600 text-6xl'>Hello</h1>
-    </>
+    <div>
+     <NavBar />
+     <Hero />
+    </div>
   )
 }
 
